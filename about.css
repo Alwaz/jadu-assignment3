@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+}
+.heading-about{
+    display: flex;
+    justify-content: center;
+    margin-top: -12%;
+}
+.about-main-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    flex: 0.5;
+}
+body{
+    background-color: rgb(24, 24, 32);
+    background-image: url("bgim.jpg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 73% 68vh;
+        color: white;
+    font-family: 'Roboto','sans-serif';
+}
+.heading-about{
+    display: flex;
+    flex-direction: column;
+}
+.heading-about > h2{
+    font-size: 46px;
+}
+.about-text-head{
+    margin-top: 8%;
+    font-size: 26px;
+}
+.about-text{
+    
+    margin: 0 auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    line-height: 1.3rem;
+}
+hr{
+    margin-top: 3%;
+    border: 2px solid;
+    border-color: white;
+}
+
+.about-main-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 7%;
+}
+.alwaz-image{
+    border: 2px solid;
+    height: 150px;
+    width: 150px;
+    margin-top: 5%;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    
+}
+.alwaz-image > a > img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.alwaz-name > a {
+    text-decoration: none;
+}
+.alwaz-name > a > h3{
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+}
+.ubaid-image{
+    border: 2px solid;
+    height: 150px;
+    width: 150px;
+    margin-top: 5%;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    
+}
+.ubaid-image > a > img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.ubaid-name > a {
+    text-decoration: none;
+}
+.ubaid-name > a > h3{
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+}
+.samit-image{
+    border: 2px solid;
+    height: 150px;
+    width: 150px;
+    margin-top: 5%;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    
+}
+.samit-image > a > img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.samit-name > a {
+    text-decoration: none;
+}
+.samit-name > a > h3{
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+}
+.zaid-image{
+    border: 2px solid;
+    height: 150px;
+    width: 150px;
+    margin-top: 5%;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    
+}
+.zaid-image > a > img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.zaid-name{
+    margin-top: 7%;
+}
+.zaid-name > a {
+    text-decoration: none;
+}
+.zaid-name > a > h3{
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+}
+.alwaz-name{
+    margin-top: 7%;
+}
+.ubaid-name{
+    margin-top: 7%;
+}
+.samit-name{
+    margin-top: 7%;
+}
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+  }
+  .font{
+      color:#fff;
+      text-decoration-line: none;
+  }
+  .nnav {
+    margin-left: auto;
+    font-size: 20px;
+  }
+  .nav{
+    font-size: 20px;
+  }
+  li {
+    padding: 20px;
+    padding-left: 10px;
+   
+  }
+  .list{
+    padding: 0;
+    list-style: none;
+    
+  }
+  .name{
+    margin-left: -3%;
+    font-size: 26px;
+    font-weight: bold;
+    
+  }
+  .login-button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: -5px;
+  }
+  
+  .login-button:hover {background-color: rgb(97, 55, 22);
+  color: white;}
+  .main-01{
+      display: flex;
+      justify-content: space-around;
+  }

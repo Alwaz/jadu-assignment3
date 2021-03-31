@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  
+  <link rel="stylesheet" type="text/css" href="./home.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body onload="startTime()">
+            <!--Navigation bar starts-->
+  <nav>
+    <ul class="main-nav">
+      <li class="name"><a class ="font" href="./home.html">DidarHome</a></li>
+      <li class="nnav"><a class ="font" href="./home.html">Home</a></li>
+      <li class="nav"><a class ="font" href="./about.html">About</a></li>
+      <li class="nav"><a class ="font" href="./contact.html">ContactUs</a></li>
+      <li class="nav"><a class ="font" href="./index.html"><button class="login-button">login/signup</button></a></li>
+    </ul>
+  </nav>
+            <!--Navigation bar ends-->
+
+            <!-- Main Heading starts-->
+  <div class="main-heading">
+    <h2 class="h-line">Welcome to  </h2>
+    <h2 class="h-line">Didar Home, Carpet</h2>
+    <h2 class="h-line">and Furniture</h2>
+    
+  </div>
+  
+    <!-- Main headin ends-->
+
+  <!--Clock section starts-->
+    <div id="txt">
+
+    </div>
+ <!--Clock section ends-->
+ 
+
+    <!-- box models starts-->
+     
+    <h2 class="box-desc">Our Products</h2>
+    <div class="box">
+      <div class="box1">
+        <h3>Carpet selection</h3>
+        <p>Choose your favorite rug, the rug you enjoy the most so 
+          so we can pepare you to go home.
+        </p>
+        <img class="im" src="./im1.jpg" alt="">
+        <h4>Comments</h4>
+        <input type="text" class="text-box" id="userinput1" placeholder="Enter your comment here">
+        <button class="comment-button" id="enter1">Post Comment</button>
+        <ul id="c-list1" class="comment-list"></ul>
+      </div>
+      <div class="box2">
+        <h3>Peru Carpet</h3>
+        <p> Choose your favorite rug, the rug you enjoy the most so 
+          so we can pepare you to go home.
+        </p>
+        <img class="im" src="./im2.jpg" alt="">
+        <h4>Comments</h4>
+        <input type="text" placeholder="Enter your comment here"id="userinput2" class="text-box">
+        <button class="comment-button" id="enter2">Post Comment</button>
+        <ul id="c-list2" class="comment-list"></ul>
+
+      </div>
+      <div class="box3">
+        <h3>Here you are</h3>
+        <p> Choose your favorite rug, the rug you enjoy the most so 
+          so we can pepare you to go home.
+        </p>
+        <img class="im" src="./im3.jpg" alt="">
+        <h4>Comments</h4>
+        <input type="text" placeholder="Enter your comment here" id="userinput" class="text-box">
+        <button class="comment-button" id="enter">Post Comment</button>
+        <ul id="c-list" class="comment-list"></ul>
+      </div>
+      
+
+    </div>
+<!-- box model ends--> 
+<script>
+  function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+  }
+  function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+  }
+  </script>
+  <script src="./index.js"></script>
+</body>
+<!-- Footer starts-->
+<footer>
+  <h3 class="footer-text">Powered by Tribe-5</h3>
+</footer>
+<!-- Footer ends-->
+</html>

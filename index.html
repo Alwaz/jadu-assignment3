@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+    <!-- <script src="https://kit.fontawesome.com/f6cf3c60d7.js" crossorigin="anonymous"></script> -->
+
+    <link rel="stylesheet" href="./index.css">
+
+
+    <title>SignUp/Login</title>
+</head>
+
+<body>
+    <div class="main">
+        <input type="checkbox" id="check" aria-hidden="true">
+      
+        <div class="signup">
+            <form name="signUp">
+                <label for="check" aria-hidden="true">Sign Up.</label>
+                <input name="email" type="email" id='e-mail' placeholder="Email">
+                <input name="password" type="password" id='password' placeholder="Password" required="">
+                <button id="signUp-btn" >Sign Up</button>
+            </form>
+        </div>
+
+        <div class="login">
+            <form name="login" id='details_form'>
+                <label for="check" aria-hidden="true">Login</label>
+                <input name="email" id="em" type="email" placeholder="Email" required="">
+                <input name="password" id='pass' type="password" placeholder="Password" required="">
+                <button id="login-btn">Login</button>
+            </form>
+        </div>
+    </div>  <!-- end of main  -->
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

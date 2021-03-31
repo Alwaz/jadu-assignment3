@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(24, 24, 32);
+    background-image: url(./signin_balls.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+}
+.warning-text{
+    border: 2px solid red;
+    border-radius: 7px;
+    width: 65%;
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ef7278;
+    color: #b20008;
+    
+}
+
+.main{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(24, 24, 32);
+    overflow: hidden;
+    border-radius: 7px;
+    box-shadow: 5px 20px 50px #000;
+}
+
+#check{
+    display: none;
+}
+
+.signup{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+ label{
+    color: #fff;
+    font-size: 2.3em;
+    display: flex;
+    align-items: center;
+    margin: 60px;
+    font-weight: bold;
+    justify-content: center;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+input {
+    width: 60%;
+    color: rgb(255 255 255);
+    height: 20px;
+    background: rgb(0 0 0 / 0%);
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+    outline: none;
+    border: 2px solid rgb(115 103 103);
+    border-radius: 7px;
+}
+
+input:focus{
+    border-color: rebeccapurple;
+    box-shadow: 0 0 8px 0 rebeccapurple;
+}
+
+button{
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    margin-top: 20px;
+    border-radius: 7px;
+    outline: none;
+    border:none;
+    display: block;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bolder;
+    justify-content: center;
+    transition: .2s ease-in;
+    cursor: pointer;
+    background: rgb(187,63,221);
+    background: linear-gradient(11deg, rgba(187,63,221,1) 0%, rgba(216,104,179,1) 47%, rgba(255,159,124,1) 100%);
+}
+
+
+.login{
+    height: 460px;
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: .8s ease-in-out;
+    background: rgb(187,63,221);
+    background: linear-gradient(11deg, rgba(187,63,221,1) 0%, rgba(216,104,179,1) 47%, rgba(255,159,124,1) 100%);
+}
+
+.login input {
+    color: rgb(24, 24, 32);
+    border: 2px solid rgb(123 99 99);
+    border-radius: 8px;
+}
+
+.login button{
+        background: rgb(119 50 202);
+        background: linear-gradient(11deg, rgb(187 63 221) 45%, rgb(187 63 221) 82%);
+}
+
+.login label{
+    color: rgb(24, 24, 32);
+    transform: scale(.6);
+}
+
+#check:checked ~ .login{
+    transform: translateY(-500px);
+}
+
+#check:checked ~ .login label{
+    transform: scale(1);
+}
+
+#check:checked ~ .signup label{
+    transform: scale(.6);
+}
+
+
+

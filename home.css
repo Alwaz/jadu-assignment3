@@ -1,0 +1,174 @@
+body {
+    background-color: rgb(24, 24, 32);
+    background-image: url("./alain-wong-YLgCXBwYmLE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 73% 70vh;
+    margin: 0px;
+    font-family: 'Roboto','sans-serif';
+  }
+  /* navigation bar starts*/
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+  }
+  .font{
+      color:#fff;
+      text-decoration-line: none;
+  }
+  .nnav {
+    margin-left: auto;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .nav{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  /* li {
+    padding: 20px;
+    padding-left: 10px;
+   
+  } */
+  .list{
+    padding: 0;
+    list-style: none;
+    
+  }
+  .name{
+    margin-left: -3%;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 15px;
+    
+  }
+  .login-button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: -5px;
+  }
+  
+  .login-button:hover {background-color: rgb(97, 55, 22);
+  color: white;}
+  
+  
+
+  /* navigation bar ends*/
+
+  /* main headin starts */
+
+  h2{
+      color:#fff;
+      margin-left: 4%;
+      font-size: 26px;
+  }
+  .h-line{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .main-heading{
+      width: 40%;
+      margin-top: 5%;
+  }
+/* main heading ends*/
+ 
+/*clock starts*/
+#txt{
+  margin-top: 20px;
+  background: rgb(187,63,221);
+  background: linear-gradient(11deg, rgba(187,63,221,1) 0%, rgba(216,104,179,1) 47%, rgba(255,159,124,1) 100%);font-size: 40px;
+  width: 27%;
+  text-align: center;
+
+}
+/*clock ends*/
+
+/* box model starts*/
+.box-desc{
+  
+  margin-top: 18%;
+text-align: center;
+}
+
+.box{
+    display: flex;
+    color: white;
+    width: 95%;
+    margin-left: 2%;
+}
+.box1{
+    width: 33%;
+}
+.box2{
+    width: 33%;
+    margin-left: 5%;
+}
+.box3{
+    width: 33%;
+    margin-left: 5%;
+}
+.im{
+    width: 100%;
+
+}
+.text-box{
+  width: 95%;
+  border-color: white;
+  color: white;
+  background-color: rgb(24, 24, 32);
+  border-color: aqua;
+  padding-bottom: 20px;
+  outline: none;
+
+}
+.comment-button{background: rgb(187,63,221);
+  background: linear-gradient(11deg, rgba(187,63,221,1) 0%, rgba(216,104,179,1) 47%, rgba(255,159,124,1) 100%);font-size: 40px;
+ 
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  font-size: 14px;
+  margin: 6px 0px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.comment-button:hover {opacity: 1}
+.comment-list{
+ list-style: none;
+ list-style-type: decimal;
+}
+
+/* box model ends*/
+
+/* footer starts*/
+.footer-text{
+  font-size: 20px;
+}
+footer {
+  background: rgb(187,63,221);
+  background: linear-gradient(11deg, rgba(187,63,221,1) 0%, rgba(216,104,179,1) 47%, rgba(255,159,124,1) 100%);font-size: 40px;
+  text-align: center;
+  height: 4vh;
+ 
+}
+/*footer ends*/
